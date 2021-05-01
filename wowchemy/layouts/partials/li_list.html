@@ -10,8 +10,8 @@
   {{ $link = $item.Params.external_link }}
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
-{{ if eq $item.Type "post" }}
-  {{ $icon = "fa-newspaper" }}
+//{{ if eq $item.Type "post" }}
+//  {{ $icon = "fa-newspaper" }}
 {{ else if eq $item.Type "event" }}
   {{ $icon = "fa-calendar-alt" }}
 {{ else if eq $item.Type "publication" }}
